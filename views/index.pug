@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  h3#chatroom
+  #messages
+  #form
+   form(onsubmit='return addMessage(this)')
+    div.submessage
+      label#submessage
+    div.message
+      label#username
+      input#text(type='text', placeholder='Tell us something...', autocomplete='off')
+      input(type='submit', value='Send!')
+

@@ -1,0 +1,21 @@
+{
+  "name": "appexpress",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.18.10",
+    "pug": "^2.0.3",
+    "socket.io": "^2.2.0",
+    "sqlite": "^3.0.2",
+    "sqlite3": "^4.0.6",
+    "username-generator": "^1.1.0"
+  }
+}
